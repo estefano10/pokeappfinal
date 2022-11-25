@@ -1,6 +1,6 @@
 import { Container, Text } from "@nextui-org/react";
 import Head from "next/head";
-import NavBar from '../ui/NavBar';
+import {NavBar} from '../ui/NavBar';
 
 const Layout = ({children, title}) => {
   return (
