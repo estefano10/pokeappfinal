@@ -1,6 +1,6 @@
 // 1. import `NextUIProvider` component
-import DarkTheme from '../themes/DarkTheme';
 
+import {DarkTheme} from '../themes/Darktheme'
 import { NextUIProvider } from '@nextui-org/react';
 
 function MyApp({ Component, pageProps }) {
