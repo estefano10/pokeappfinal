@@ -1,4 +1,4 @@
-import { Link, Spacer, Text, useTheme, Input, Navbar } from "@nextui-org/react";
+import { Link, Spacer, Text, Input, Navbar } from "@nextui-org/react";
 import Image from "next/image";
 import NextLink from "next/link";
 import { useState } from "react";
@@ -9,7 +9,7 @@ import {useRouter} from 'next/router'
 
 
 const NavBar = () => {
-    const {theme } =useTheme();
+   
     const id= Math.floor(Math.random()*100+1);
     const [searchItems, setSearchItem] = useState('')
     const router = useRouter()
