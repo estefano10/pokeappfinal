@@ -8,7 +8,7 @@ import {useRouter} from 'next/router'
 
 
 
-const navbar = () => {
+const NavBar = () => {
     const {theme } =useTheme();
     const id= Math.floor(Math.random()*100+1);
     const [searchItems, setSearchItem] = useState('')
@@ -118,4 +118,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default NavBar;
