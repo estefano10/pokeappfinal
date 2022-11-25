@@ -8,7 +8,7 @@ import {useRouter} from 'next/router'
 
 
 
-const NavBar = () => {
+const CustomNavBar = () => {
    
     const id= Math.floor(Math.random()*100+1);
     const [searchItems, setSearchItem] = useState('')
@@ -118,4 +118,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default CustomNavBar;
